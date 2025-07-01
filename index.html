@@ -85,7 +85,7 @@
         window.arCamera = new ARCamera(unityCanvas, videoCanvas);
         window.fTracker = new FaceTracker(arCamera);
         try{
-          var numFaces = 1; //<--SET MAX NUMBER OF FACES
+					var numFaces = 4;
             
             // await window.fTracker.initialize(
                     //     "./opencv.js",
@@ -170,7 +170,7 @@
           streamingAssetsUrl: "StreamingAssets",
           companyName: "DefaultCompany",
           productName: "AR_Face_BIRP",
-          productVersion: "1.8",
+          productVersion: "1.9",
           showBanner: unityShowBanner,
         };
 
@@ -211,7 +211,7 @@
       }
 
       //Set Facing Mode here ('environment', 'user', '')
-      window.unityFacingMode = "environment";
+		window.unityFacingMode = "user"
 
       window.WEBCAM_SETTINGS = {
           video: {

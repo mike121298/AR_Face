@@ -1,4 +1,4 @@
-const cacheName = "DefaultCompany-AR_Face_BIRP-1.8";
+const cacheName = "DefaultCompany-AR_Face_BIRP-1.9";
 const contentToCache = [
     "Build/AR_Face.loader.js",
     "Build/AR_Face.framework.js",
